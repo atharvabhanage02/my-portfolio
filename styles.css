@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+:root{
+    --primary-color:#6C63FF;
+    --dark-gray:#808080;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+}
+
+.main-heading{
+    color: white;
+}
+
+.navigation{
+    background-color: var(--primary-color);
+    border-bottom-left-radius: 1rem;
+    padding: 0.3rem 0.5rem;
+    margin:0rem 2rem;
+}
+
+.non-bullet{
+    list-style: none;
+}
+
+.main-list{
+    text-align: right;
+}
+
+.list-inline{
+    display: inline;
+   
+    padding: 0rem 1rem;
+}
+
+.nav-links{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+}
+
+.header{
+    padding: 1rem;
+    padding-top: 2rem;;
+}
+
+.header .header-img{
+    display: block;
+    margin: auto;
+    max-width: 80%;
+}
+
+span{
+    color:var(--primary-color);
+}
+
+.header .header-text{
+    color: var(--dark-gray);
+    font-weight: bold;
+    text-align: center;
+}
+.section{
+    text-align: center;
+    padding:2rem;
+    max-width: 600px;
+    margin: auto;
+    border-radius:1rem ;
+    display: block;
+}
+.section-gray{
+    background-color: hsl(0, 9%, 85%);
+}
+
+.section-links-primary{
+    text-decoration: none;
+    background-color: var(--primary-color);
+    padding: 0.5rem 1rem ;
+    color: white;
+    border-radius: 0.5rem;
+}
+
+.section-links-secondary{
+    text-decoration: none;
+    background-color: white;
+    padding: 0.5rem 1rem ;
+    border:1px solid blue;
+    border-radius: 0.5rem;
+    
+}
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 4rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    display: block;
+    border-top-right-radius: 1rem;
+    color: white;
+    
+}
+.footer .footer-lists{
+    text-decoration: none;
+    text-align: center;
+    color:white;
+    
+}
+.footer-links{
+    text-decoration: none;
+    color:white;
+    
+}
+.footer ul {
+    padding-inline-start: 0px;
+}
+.footer-div{
+    text-align: center;
+    font-weight: bold;
+    
+}
