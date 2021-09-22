@@ -76,17 +76,20 @@ span{
 .links-primary{
     text-decoration: none;
     background-color: var(--primary-color);
-    padding: 0.5rem 1rem ;
+    padding: 0.8rem 1.5rem ;
     color: white;
-    border-radius: 0.5rem;
+    border-radius: 2rem;
+    margin: 0.5rem 0.5rem ;
 }
 
 .links-secondary{
     text-decoration: none;
     background-color: white;
-    padding: 0.5rem 1rem ;
+    color: var(--primary-color);
+    padding: 0.8rem 1.5rem ;
     border:1px solid blue;
-    border-radius: 0.5rem;
+    border-radius: 2rem;
+    margin: 0.5rem 0.5rem;
     
 }
 .footer{
