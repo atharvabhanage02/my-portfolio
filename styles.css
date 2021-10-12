@@ -107,12 +107,12 @@ span{
     text-decoration: none;
     text-align: center;
     color:white;
-    
 }
 .footer-links{
     text-decoration: none;
     color:white;
-    
+    cursor: pointer;
+   
 }
 .footer ul {
     padding-inline-start: 0px;
